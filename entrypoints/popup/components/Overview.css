@@ -1,0 +1,51 @@
+.logged-in-instruction {
+  font-size: 12;
+  font-weight: regular;
+  color: #9E9E9E;
+  margin-left: 7px;
+}
+
+.sign-in-instruction {
+  font-size: 12;
+  font-weight: 500;
+  color: #475569;
+  margin-left: 7px;
+ }
+
+.instruction-panel {
+  width: 280px; 
+  box-sizing: border-box; 
+}
+
+.setting-card-break {
+  height: 5px;
+}
+
+.header-break {
+  height: 10px;
+}
+
+.line-break {
+  border: none; 
+  height: 1px; 
+  background-color: #f0f1f2; 
+  width: 280px;
+}
+
+.overview-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 3px;
+}
+
+.secondary-button {
+  background-color: #F9F9F9;
+  color: #333333;
+}
+
+.primary-button {
+  background-color: #dcdcdd;
+  color:#333333;
+}

@@ -1,0 +1,96 @@
+.button-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-button {
+  margin-left: 3px;
+  background-color: #dcdcdd;
+}
+
+.setting-wrapper {
+  width: 280px;
+  box-sizing: border-box;
+}
+
+.setting-main {
+  margin-left: 2px;
+}
+
+.setting-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #213547;
+}
+
+.divider {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.select-wrapper {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.select-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  appearance: none;
+  background-color: white;
+  padding-right: 32px;
+  cursor: pointer;
+  height: 35px;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  pointer-events: none;
+}
+
+.arrow-icon {
+  width: 12px;
+  height: 12px;
+  color: #9ca3af;
+}
+
+.helper-text {
+  color: #6b7280;
+  font-size: 11px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 4x;
+}
+
+.info-icon {
+  width: 14px;
+  height: 14px;
+  color: #9ca3af;
+}
+
+.bottom-divider {
+  margin-bottom: 15px;
+}

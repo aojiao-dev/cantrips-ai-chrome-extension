@@ -1,0 +1,55 @@
+#root {
+  position: relative;
+  max-width: 1280px;
+  margin: auto auto;
+  padding: 1rem;
+}
+
+.outer {
+  position: relative;
+}
+
+.box-border {
+  width: 280px;
+  height: 50px;
+  box-shadow: inset 0 0 0 1px #DDE4EB;
+  border-radius: 6px;
+  color: red;
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.box-border:hover {
+  background-color: #f9f9f9; /* Light hover background effect */
+}
+
+.icon {
+  margin-right: 10px; /* Space between the icon and text section */
+  margin-top: 3px; /* Align the icon vertically */
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Adds minimal space between elements */
+}
+
+.title {
+  font-size: 14px;
+  font-weight: normal; /* "regular" should be "normal" in CSS */
+  color: #4A4A4A;
+  margin: 0;
+  line-height: 1.1; /* Tighter line height */
+}
+
+.subtitle {
+  font-size: 11px;
+  font-style: italic;
+  color: #9E9E9E;
+  font-weight: normal;
+  line-height: 1.1; /* Tighter line height */
+  margin: 0; /* Remove any default margins */
+}
