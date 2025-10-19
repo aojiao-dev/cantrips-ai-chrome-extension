@@ -73,3 +73,6 @@ This project is licensed under the **MIT License** — see below:
 ### Build and Run
 1. Run `npm install` to download all dependencies
 2. Run `npx wxt zip` to create a runnable binary
+
+### Backend
+1. lambda_function.py is the script used by backend
